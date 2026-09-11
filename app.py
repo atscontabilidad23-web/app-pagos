@@ -3,7 +3,7 @@ from supabase import create_client
 
 # 1. Tus credenciales de Supabase (Copia las tuyas de Project Settings -> API)
 SUPABASE_URL = "https://jjruyavjxzhibfgmnatxu.supabase.co"
-SUPABASE_KEY = "sb_publishable_euk3_MspnBq1DI7TMPFlPw_1mf8gXHm"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpqcnV5YXZqeHpoYmZnbW5hdHh1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg4MDY2MzcsImV4cCI6MjEwNDM4MjYzN30.aDPqNCitNJxHgXYsSXVo1l2K1sHipg-L4in25ZwLc-Q"
 
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
